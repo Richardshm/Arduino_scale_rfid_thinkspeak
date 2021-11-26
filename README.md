@@ -10,23 +10,28 @@ is stored in a thinkspeak server (https://thingspeak.com/channels/1546302).
 ```
 Any microcontroller can be used, only the pin layout must be taken into account.
 ```
-2.Matriz led 8x8 (2).
+2.Load cell (1).
 
-3.Pushbuttons(6).
+3.HX711 Load Cell Transmitter Module(1).
+
+4.RFID Reader module RC522(1).
+
+5.RFID tags (3).
 
 ### Installation 🔧
 
-Save the .ino file on the arduino.
+Save the .ino file on the nodemcu, you can see how to configure the nodemcu with the iddle of arduino here (https://github.com/esp8266/Arduino).
 
 ## Built with 🛠️
 
-* [LedControl](https://github.com/wayoda/LedControl) - library for the control of led arrays
-
+* [Librería Arduino List](https://github.com/luisllamasbinaburo/Arduino-List) - Arduino library that implements a dynamic array.
+* [HX711](https://github.com/bogde/HX711) - An Arduino library to interface the Avia Semiconductor HX711.
+* [MFRC522](https://github.com/miguelbalboa/rfid) - Arduino RFID Library for MFRC522.
+* [ThingSpeak](https://github.com/mathworks/thingspeak-arduino) - ThingSpeak Communication Library for Arduino, ESP8266 and ESP32.
 
 ## Authors ✒️
 
 * **Richard Hernández** - * Working together * - (https://github.com/Richardshm/)
-* **Dayber Mogollon** - * Working together * - (dmj.driver@hotmail.com)
 
 
 ## License 📄
