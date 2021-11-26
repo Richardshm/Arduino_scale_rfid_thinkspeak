@@ -1,4 +1,4 @@
-# digital HMI scale with rfid tagging and sending data to thikspeak server.
+# Digital HMI scale with rfid tagging and sending data to thikspeak server.
 
 It consists of a nodemcu microcontroller, which takes weight measurements taking into account rfid tags to add a 
 certain quantity of a material to the inventory, the nodmcu control uses an HMI interface and also the data taken 
