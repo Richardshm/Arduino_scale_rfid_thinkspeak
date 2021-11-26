@@ -31,7 +31,7 @@ Save the .ino file on the nodemcu, you can see how to configure the nodemcu with
 
 ## Authors ✒️
 
-* **Richard Hernández** - * Working together * - (https://github.com/Richardshm/)
+* **Richard Hernández** - * All * - (https://github.com/Richardshm/)
 
 
 ## License 📄
